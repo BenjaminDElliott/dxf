@@ -7,6 +7,7 @@ import BoundingBox from './BoundingBox'
 import denormalise from './denormalise'
 import groupEntitiesByLayer from './groupEntitiesByLayer'
 import toSVG from './toSVG'
+import toJSX from './toJSX'
 import colors from './util/colors'
 import entityToPolyline from './entityToPolyline'
 
@@ -107,5 +108,6 @@ export {
   denormalise,
   groupEntitiesByLayer,
   toSVG,
+  toJSX,
   entityToPolyline
 }
